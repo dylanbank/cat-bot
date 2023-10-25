@@ -8,13 +8,14 @@ module.exports = async (client) => {
     try {
         const localCommands = getLocalCommands();
         const applicationCommands = await getApplicationCommands(client, testServer);
-
+        
         for( const localCommand of localCommands){
             const { name, description, options } = localCommand;
 
             const existingCommand = await applicationCommands.cache.find(
                 (cmd) => cmd.name === name
             );
+
             if(existingCommand){
                 if(localCommand.deleted){
                     await applicationCommands.delete(existingCommand.id);
@@ -34,7 +35,6 @@ module.exports = async (client) => {
                     console.log(`Skipping command "${name}" because its set to delete`);
                     continue;
                 }
-
                 await applicationCommands.create({
                     name, 
                     description, 
