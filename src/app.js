@@ -20,7 +20,7 @@ const client = new Client({
     console.log("connected to db");
 
     eventHandler(client);
-    client.login(process.env.TOKEN);
+    client.login(process.env.BOT_TOKEN);
   } catch (error) {
     console.log(`Error: ${error}`)
   }
