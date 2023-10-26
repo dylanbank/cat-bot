@@ -19,7 +19,7 @@ module.exports = {
         if (interaction.commandName === 'pocket-watch') {
 
             // placeholder message
-            await interaction.reply('*lemme think*');
+            await interaction.deferReply();
             let response;
             const name = interaction.options.get('name').value;
 
