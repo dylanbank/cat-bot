@@ -1,7 +1,9 @@
 # cat-bot / this is for personal and fun use
 
 ### description
-cat-bot is a discord bot that does discord-bot like things. 
+cat-bot is a discord bot that does discord-bot like things.
+developed using Node.js, hosted on an AWS EC2 instance, with MongoDB access
+
 
 ## events
 it reacts to discord.js events such as 
@@ -24,5 +26,3 @@ it reacts to discord.js slash commands such as
   |  /add-game  |  [game name]  |  adds game to list of games  |
   |  /delete-game  |  [game name]  | deletes game from list of games  |
   |  /random-game  |  none  | picks a random game to play  |
-
-it is developed using Node.js, hosted on an AWS EC2 instance, with MongoDB access
