@@ -1,7 +1,7 @@
 # cat-bot / this is for personal and fun use
 
 ### description
-cat-bot is a discord bot that does discord-bot like things.
+cat-bot is a discord bot that does discord-bot like things.\n
 developed using Node.js, hosted on an AWS EC2 instance, with MongoDB access
 
 
