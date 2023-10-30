@@ -10,8 +10,7 @@ it reacts to discord.js events such as
 
   |  file name  |  event  |  function  |
   |  ------------  |  -------  |  --------  |
-  |  whoDC.js  |  guildAuditLogEntryCreate  |  logs when a user has been disconnected |
-  |  whoDC.js  |  guildAuditLogEntryCreate  |  logs when a user changed their nickname |
+  |  whoDC.js  |  guildAuditLogEntryCreate  |  logs when a user has been disconnected or has their name changed |
   |  hello.js  |  messageCreate  |  logs when a user types a specific word  |
 
 ## commands
