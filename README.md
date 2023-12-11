@@ -25,3 +25,4 @@ it reacts to discord.js slash commands such as
   |  /add-game  |  [game name]  |  adds game to list of games  |
   |  /delete-game  |  [game name]  | deletes game from list of games  |
   |  /random-game  |  none  | picks a random game to play  |
+  |  /coin-flip  |  none  | flips a coin  |
